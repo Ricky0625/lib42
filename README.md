@@ -37,3 +37,9 @@ Place it in your file if you need to use any of the functions from lib42.
 ```shell
 gcc [your object files] path_to_lib42/*a
 ```
+
+5. Remake lib42
+
+```shell
+make re
+```

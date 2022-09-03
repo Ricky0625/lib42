@@ -6,7 +6,7 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/03 19:48:16 by wricky-t          #+#    #+#              #
-#    Updated: 2022/09/03 20:30:29 by wricky-t         ###   ########.fr        #
+#    Updated: 2022/09/03 21:10:15 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,10 +43,7 @@ fclean: $(LIBFT) $(PRINTF)
 	@make -s fclean -C $(GNL)
 	@$(RM) $(NAME)
 
-re: $(LIBFT) $(PRINTF)
-	@make -s re -C $(LIBFT)
-	@make -s re -C $(PRINTF)
-	@make -s re -C $(GNL)
+re: fclean all
 	
 .SILENT: all bonus clean fclean re
 .PHONY: all bonus clean fclean re
