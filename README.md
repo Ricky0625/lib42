@@ -16,9 +16,11 @@ git clone https://github.com/Ricky0625/lib42.git lib42
 make all
 # OR
 make bonus
+
+# These commands will work if you are in the lib42 directory.
 ```
 
-For make `all`, the static library will have the list of mandatory functions of libft, printf and get_next_line.
+For make `all`, the static library will have the list of mandatory functions of [libft](https://github.com/Ricky0625/libft), [printf](https://github.com/Ricky0625/ft_printf) and [get_next_line](https://github.com/Ricky0625/get_next_line).
 
 For make `bonus`, same as make `all` but with all the bonus functions of libft and printf.
 
