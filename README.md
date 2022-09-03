@@ -27,7 +27,7 @@ For make `bonus`, same as make `all` but with all the bonus functions of libft a
 Place it in your file if you need to use any of the functions from lib42.
 
 ```c
-# include "path_to_lib42/lib42.h"
+#include "path_to_lib42/lib42.h"
 ```
 
 4. Compile your object files with the static library
