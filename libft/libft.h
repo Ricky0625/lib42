@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/12/05 17:16:58 by wricky-t         ###   ########.fr       */
+/*   Updated: 2022/12/05 23:12:20 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
 char	**ft_split_ws(char *str);
+char	**ft_split_delims(char *str, char *delimeters);
 char	*ft_itoa(int n);
 char	*ft_itoa_unsigned(unsigned long n, int base, char *radix);
 char	*ft_itoa_base(long n, int base, char *radix);
