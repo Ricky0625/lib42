@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/12/03 15:51:05 by wricky-t         ###   ########.fr       */
+/*   Updated: 2022/12/05 13:08:38 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,7 @@ int		ft_atoi(const char *str);
 void	*ft_calloc(size_t num, size_t size);
 char	*ft_strdup(const char *s1);
 char	*ft_strndup(char *str, int n);
+size_t	ft_strcspn(const char *str1, const char *str2);
 
 // Additional functions
 char	*ft_substr(char const *s, unsigned int start, size_t len);
