@@ -6,7 +6,7 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/26 14:05:02 by wricky-t          #+#    #+#              #
-#    Updated: 2022/12/05 23:12:45 by wricky-t         ###   ########.fr        #
+#    Updated: 2022/12/06 15:42:51 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ SRCS 		:= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 			ft_isprint.c ft_isspace.c \
 			ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c \
 			ft_memmove.c ft_strlcpy.c ft_strlcat.c ft_toupper.c ft_tolower.c \
+			ft_strlower.c ft_strupper.c \
 			ft_strchr.c ft_strrchr.c ft_strncmp.c ft_memchr.c ft_memcmp.c \
 			ft_strnstr.c ft_atoi.c ft_calloc.c ft_strdup.c ft_strndup.c \
 			ft_substr.c ft_split_ws.c ft_strcspn.c ft_split_delims.c \

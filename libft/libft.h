@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/12/05 23:12:20 by wricky-t         ###   ########.fr       */
+/*   Updated: 2022/12/06 15:41:55 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 int		ft_toupper(int ch);
 int		ft_tolower(int ch);
+char	*ft_strlower(char *str);
+char	*ft_strupper(char *str);
 
 char	*ft_strchr(const char *str, int ch);
 char	*ft_strrchr(const char *str, int ch);
