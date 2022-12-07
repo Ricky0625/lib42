@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/12/07 17:10:27 by wricky-t         ###   ########.fr       */
+/*   Updated: 2022/12/07 20:56:47 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ int		ft_toupper(int ch);
 int		ft_tolower(int ch);
 char	*ft_strlower(char *str);
 char	*ft_strupper(char *str);
+char	*ft_strcat(char *dest, char *src);
 
 char	*ft_strchr(const char *str, int ch);
 char	*ft_strrchr(const char *str, int ch);
