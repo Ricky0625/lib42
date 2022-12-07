@@ -6,14 +6,14 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/26 14:05:02 by wricky-t          #+#    #+#              #
-#    Updated: 2022/12/07 13:42:02 by wricky-t         ###   ########.fr        #
+#    Updated: 2022/12/07 17:10:39 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME 		:= libft.a
 
 SRCS 		:= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
-			ft_isprint.c ft_isspace.c \
+			ft_isprint.c ft_isspace.c ft_strcmp.c \
 			ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c ft_strcpy.c \
 			ft_memmove.c ft_strlcpy.c ft_strlcat.c ft_toupper.c ft_tolower.c \
 			ft_strlower.c ft_strupper.c ft_freestrarr.c \
