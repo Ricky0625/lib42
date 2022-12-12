@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 15:44:43 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/12/06 15:45:37 by wricky-t         ###   ########.fr       */
+/*   Updated: 2022/12/12 12:39:19 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strupper(char *str)
 	char	*strupper;
 	size_t	len;
 
-	strupper = str;
+	strupper = ft_strdup(str);
 	len = ft_strlen(strupper);
 	while (*strupper != '\0')
 	{
