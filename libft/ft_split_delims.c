@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 17:42:25 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/12/13 17:08:55 by wricky-t         ###   ########.fr       */
+/*   Updated: 2022/12/20 11:04:18 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,8 @@ static void	has_a_pair(char **str)
 static int	count_word(char *str, char *delimeters)
 {
 	int	count;
-	int	in_delimeter;
 
 	count = 0;
-	in_delimeter = 0;
 	while (*str != '\0')
 	{
 		while (ft_isspace(*str) == 1)

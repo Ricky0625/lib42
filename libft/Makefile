@@ -6,7 +6,7 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/26 14:05:02 by wricky-t          #+#    #+#              #
-#    Updated: 2022/12/18 17:03:09 by wricky-t         ###   ########.fr        #
+#    Updated: 2022/12/20 11:01:26 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ CC 			:= gcc
 
 AR			:= ar -crs
 
-CFLAGS 		?= -Wall -Wextra -Werror
+CFLAGS 		?= -Wall -Wextra -Werror -Wunused-label
 
 all: $(NAME)
 
