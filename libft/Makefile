@@ -6,14 +6,14 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/26 14:05:02 by wricky-t          #+#    #+#              #
-#    Updated: 2022/12/20 11:01:26 by wricky-t         ###   ########.fr        #
+#    Updated: 2022/12/20 11:33:58 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME 		:= libft.a
 
 SRCS 		:= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
-			ft_isprint.c ft_isspace.c ft_strcmp.c ft_strcat.c \
+			ft_isprint.c ft_isspace.c ft_strcmp.c ft_strcat.c ft_strspn.c \
 			ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c ft_strcpy.c \
 			ft_memmove.c ft_strlcpy.c ft_strlcat.c ft_toupper.c ft_tolower.c \
 			ft_strlower.c ft_strupper.c ft_freestrarr.c ft_strjoin_free.c \
@@ -22,7 +22,7 @@ SRCS 		:= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 			ft_substr.c ft_split_ws.c ft_strcspn.c ft_split_delims.c \
 			ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c \
 			ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
-			ft_putnbr_fd.c ft_itoa_unsigned.c ft_itoa_base.c \
+			ft_putnbr_fd.c ft_itoa_unsigned.c ft_itoa_base.c ft_strtok.c \
 
 OBJS 		:= $(SRCS:.c=.o)
 
