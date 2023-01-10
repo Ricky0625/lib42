@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 10:32:47 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/06/08 17:21:05 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/01/10 19:33:21 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ char	*ft_strdup(const char *s1)
 	char	*str;
 	size_t	index;
 
+	if (s1 == NULL)
+		return (NULL);
 	len = ft_strlen(s1);
 	str = malloc(sizeof(char) * (len + 1));
 	index = 0;

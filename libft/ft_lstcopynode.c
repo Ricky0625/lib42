@@ -1,25 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstiter.c                                       :+:      :+:    :+:   */
+/*   ft_lstcopynode.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/30 19:51:20 by wricky-t          #+#    #+#             */
-/*   Updated: 2023/01/09 17:47:39 by wricky-t         ###   ########.fr       */
+/*   Created: 2023/01/10 17:35:34 by wricky-t          #+#    #+#             */
+/*   Updated: 2023/01/10 17:54:05 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// lst: the address of a pointer to a node
-// f: the address of the function used to iterate on the list
-
 #include "libft.h"
 
-void	ft_lstiter(t_list *lst, void (*f)(void *))
+void	*ft_lstcopynode(void *content)
 {
-	while (lst != NULL)
-	{
-		f(lst->content);
-		lst = lst->next;
-	}
+	void	*new;
+
+	new = malloc(sizeof(void *));
+	ft_memcpy(new, content, sizeof(void *));
+	return (new);
 }
