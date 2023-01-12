@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 20:25:11 by wricky-t          #+#    #+#             */
-/*   Updated: 2023/01/10 12:17:34 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/01/11 13:39:42 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		return ;
 	while (*lst != NULL)
 	{
-		temp = (*lst)->next;
-		del((*lst)->content);
-		free(*lst);
-		*lst = temp;
+		temp = (*lst);
+		(*lst) = (*lst)->next;
+		del(temp->content);
+		free(temp);
 	}
 }
