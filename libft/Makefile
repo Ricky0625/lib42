@@ -6,7 +6,7 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/26 14:05:02 by wricky-t          #+#    #+#              #
-#    Updated: 2023/01/10 17:38:07 by wricky-t         ###   ########.fr        #
+#    Updated: 2023/02/03 11:07:38 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,6 +29,7 @@ OBJS 		:= $(SRCS:.c=.o)
 BONUS_SRCS	:= ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 			ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
 			ft_lstmap.c ft_lstgetlast.c ft_lstcopy.c ft_lstcopynode.c \
+			ft_lstbubblesort.c ft_lstswapcontent.c \
 
 BONUS_OBJS	:= $(BONUS_SRCS:.c=.o)
 

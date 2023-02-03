@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2023/01/10 17:37:58 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/02/03 11:07:12 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,5 +91,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 t_list	*ft_lstgetlast(t_list *node);
 t_list	*ft_lstcopy(t_list *lst, void *(*copy)(void *));
 void	*ft_lstcopynode(void *content);
+void	ft_lstbubblesort(t_list **lst, int (*sort)(void *, void *));
+void	ft_lstswapcontent(t_list *ptr1, t_list *ptr2);
 
 #endif
