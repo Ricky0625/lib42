@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2023/02/03 11:07:12 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/02/03 15:34:54 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ size_t	ft_strspn(const char *str, const char *accept);
 size_t	ft_strcspn(const char *str1, const char *str2);
 char	*ft_strtok(char *str, const char *delim);
 void	ft_freestrarr(char **arr);
+size_t	ft_strarrsize(char **arr);
 
 // Additional functions
 char	*ft_substr(char const *s, unsigned int start, size_t len);
