@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/13 14:20:21 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/07/13 18:54:31 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/03/07 19:25:36 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,6 @@
 // libraries
 # include <unistd.h>
 # include <stdlib.h>
-
-// for testing only (must remove after everything is good)
-# include <stdio.h>
-# include <sys/stat.h>
-# include <fcntl.h>
 
 // macros
 # ifndef BUFFER_SIZE
