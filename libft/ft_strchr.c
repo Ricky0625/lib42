@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/24 12:15:28 by wricky-t          #+#    #+#             */
-/*   Updated: 2022/05/24 15:35:41 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/03/11 12:34:47 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ char	*ft_strchr(const char *str, int ch)
 	{
 		str++;
 	}
-	if (*str == target)
+	if (*str && *str == target)
 		occurrence = (char *)str;
 	return (occurrence);
 }
