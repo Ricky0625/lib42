@@ -6,7 +6,7 @@
 /*   By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:58:22 by wricky-t          #+#    #+#             */
-/*   Updated: 2023/03/08 15:11:20 by wricky-t         ###   ########.fr       */
+/*   Updated: 2023/03/13 14:47:55 by wricky-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,8 @@ int		ft_tolower(int ch);
 char	*ft_strlower(char *str);
 char	*ft_strupper(char *str);
 char	*ft_strcat(char *dest, char *src);
+void	ft_swap(void *a, void *b, const int size);
+void	ft_revarr(void *arr, int arr_size, int data_size);
 
 char	*ft_strchr(const char *str, int ch);
 char	*ft_strrchr(const char *str, int ch);

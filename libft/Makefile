@@ -6,7 +6,7 @@
 #    By: wricky-t <wricky-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/26 14:05:02 by wricky-t          #+#    #+#              #
-#    Updated: 2023/03/08 15:11:42 by wricky-t         ###   ########.fr        #
+#    Updated: 2023/03/13 14:48:00 by wricky-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ SRCS 		:= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 			ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c \
 			ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 			ft_putnbr_fd.c ft_itoa_unsigned.c ft_itoa_base.c ft_strtok.c \
-			ft_strarrsize.c \
+			ft_strarrsize.c ft_swap.c ft_revarr.c \
 
 OBJS 		:= $(SRCS:.c=.o)
 
